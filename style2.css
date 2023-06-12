@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: red;
+}
+
+/*Area logo*/
+
+#area-cabecalho{
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+}
+
+h1{ 
+    font-size: 2.5em;
+    color: white;
+    margin: 0px;
+}
+.vermelho{
+    color: red;
+}
+
+#area-logo{
+   padding: 20px;
+}
+
+#area-cabecalho a{
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    padding: 15px;
+    color: white;
+}
+
+#area-cabecalho a:hover{
+    color: black;
+    background: white;
+}
+
+/*Conteudo*/
+
+
+
+.tipo-produto-logo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+   background-color: black;
+}
+
+.area-produtos{
+    background-color: #e6e6e6;
+}
+
+.produtos{
+    background-color: #ffffff29;
+    margin: 25px 30px;
+    border: 0px solid blue;
+    width: 308px;
+    height: 545px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.tipo-produto2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+   background-color: black;
+}
+
+.imagem-produto{
+    background-color: #575e5f1a;
+    padding-top: 20px;
+    padding-left: 8px;
+    width: 300px;
+    height: 270px;
+}
+
+.img-prime{
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.informacoes-produto{
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.preco-produto{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.preco{
+    font-size: 15px;
+}
+
+.negrito{
+    font-size: 30px;
+    font-weight: 520;
+}
+
+.negrito2{
+    color: black;
+    font-weight: bold; 
+}
+
+.receba{
+    color: rgba(0, 0, 0, 0.832);
+}
+
+.dia-de-entrega-com-prime{
+    padding-left: 57px;
+}
+
+/*Links*/
+
+.produtos a{
+    text-decoration: none;
+}
+
+.produtos  a:link , .produtos a:visited{
+    color: black;
+}
+
+.produtos a:hover{
+    color: rgba(255, 68, 0, 0.681);
+}
+
+.preco-produto a:hover{
+    color: black;
+    
+}
+
+.parcelas{
+    padding-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+sup {
+    position: relative;
+    bottom: 6px;
+}
+
+.prime{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.frete-gratis{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
