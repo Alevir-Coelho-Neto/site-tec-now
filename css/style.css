@@ -95,6 +95,77 @@ h1{
 }
 
 
+/*Forma de contato*/
+
+
+#contato p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+#formulario{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#contato .letra-pequena{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+input{
+    margin: 4px 3px;
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+
+
+.larger-input{
+    width: 173px;
+    height: 13px;
+}
+
+.hand-cursor{
+    cursor: pointer;
+}
+
+.texto{
+    text-align: center;
+}
+
+select{
+    position: relative;
+    left: 140px;
+    height: 40px;
+    margin: 4px 3px;
+    font-size: 14px;
+    width: 198px;
+    padding: 6px;
+    border: 2px solid gray;
+    color: gray;
+}
+
+.assunto{
+    font-size:15px;
+}
+
+.input-container {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+.texto-assuntos{
+    color: rgba(0, 0, 0, 0.845);
+    font-size: 17px;
+}
+
 
 
 
