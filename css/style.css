@@ -94,9 +94,7 @@ h1{
     background-color: white;
 }
 
-
 /*Forma de contato*/
-
 
 #contato p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -122,8 +120,6 @@ input{
     padding: 10px;
     border: 2px solid gray;
 }
-
-
 
 .larger-input{
     width: 173px;
@@ -165,11 +161,3 @@ select{
     color: rgba(0, 0, 0, 0.845);
     font-size: 17px;
 }
-
-
-
-
-
-
-
-
