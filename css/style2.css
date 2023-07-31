@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*Area logo*/
+
+#area-cabecalho{
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+}
+
+h1{ 
+    font-size: 2.5em;
+    color: white;
+    margin: 0px;
+}
+.vermelho{
+    color: red;
+}
+
+#area-logo{
+   padding: 20px;
+}
+
+#area-cabecalho a{
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    padding: 8px 12px;
+    color: white;
+}
+
+#area-cabecalho a:hover{
+    color: black;
+    background: white;
+}
+
+/*Conteudo*/
+
+
+
+.tipo-produto-logo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+   background-color: black;
+}
+
+.area-produtos{
+    background-color: #e6e6e6;
+}
+
+.produtos{
+    margin: 25px 25px 2px 33px;
+    border-radius: 20px;
+    background: white;
+    width: 310px;
+    height: 545px;
+    float: left;
+}
+
+.produtos:hover{
+    background-color: #B0E0E6;
+}
+
+.clear{
+    clear: both;
+}
+
+.tipo-produto2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+   background-color: black;
+   margin-top: 25px;
+}
+
+.imagem-produto{
+    display: block;
+    padding-top: 20px;
+    padding-left: 16px;
+    width: 90%;
+    height: 270px;
+    border-bottom: 0.5px solid #F0F0F0;
+    padding-bottom: 20px;
+}
+
+.img-prime{
+    height: 30px;
+    position: relative;
+    top: 12px;
+}
+
+.informacoes-produto{
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.preco-produto{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.preco{
+    font-size: 15px;
+}
+
+.negrito{
+    font-size: 30px;
+    font-weight: 520;
+}
+
+.negrito2{
+    color: black;
+    font-weight: bold; 
+}
+
+.receba{
+    color: rgba(0, 0, 0, 0.832);
+}
+
+.dia-de-entrega-com-prime{
+    padding-left: 57px;
+}
+
+/*Links*/
+
+.produtos a{
+    text-decoration: none;
+}
+
+.produtos  a:link , .produtos a:visited{
+    color: black;
+}
+
+.produtos a:hover{
+    color: #fff;
+}
+
+.preco-produto a:hover{
+    color: black;
+}
+
+.parcelas{
+    padding-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+sup {
+    position: relative;
+    bottom: 6px;
+}
+
+.prime{
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.frete-gratis{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/*Formas de contato*/
+
+
+
