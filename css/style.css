@@ -6,7 +6,7 @@
 body{
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #e6e6e6;
+    background-color: #e6e6e6;
 }
 
 h1{
@@ -81,18 +81,59 @@ h1{
     background-color: #2b343d;
 }
 
-#principal{
-    background-color: white;
-}
-
 #nossa-equipe{
     margin: 0px 3%;
     padding-top: 3%;
     padding-bottom: 90px;
-    width: 700px;
-    background-color: white;
 }
 
+#lista-nosso-time li{
+    margin-top: 40px;
+    margin-left: 35px;
+    border-radius: 18px;
+    height: 467px;
+    width: 17%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#lista-nosso-time li:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+.img-nossa-equipe{
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 140px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#lista-nosso-time li h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: pink;
+    font-size: 1.1em
+}
+
+#lista-nosso-time li h2{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#lista-nosso-time li h4{
+    margin-bottom: 10px;
+}
+
+#lista-nosso-time li h5{
+    font-size: 0.9em;
+}
 /*Forma de contato*/
 
 #contato p{
@@ -118,6 +159,15 @@ input{
     font-size: 14px;
     padding: 10px;
     border: 2px solid gray;
+    border-radius: 15px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="date"]{
+    color: gray;
 }
 
 .larger-input{
@@ -143,6 +193,17 @@ select{
     padding: 6px;
     border: 2px solid gray;
     color: gray;
+    border-radius: 12px;
+    cursor: pointer;
+    appearance: none; /* Remover o estilo padrão do navegador */
+    -webkit-appearance: none; /* Para navegadores baseados em WebKit (como Chrome e Safari) */
+    -moz-appearance: none; /* Para navegadores baseados em Gecko (como Firefox) */
+    padding-left: 10px;
+    writing-mode: horizontal-tb; /* Abre o menu suspenso para baixo */
+}
+
+select:focus{
+    outline: none;
 }
 
 .assunto{
@@ -159,4 +220,19 @@ select{
 .texto-assuntos{
     color: rgba(0, 0, 0, 0.845);
     font-size: 17px;
+}
+
+textarea{
+    border: 2px solid gray;
+    padding: 10px 0 0 10px;
+    border-radius: 12px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+
+.clear{
+    clear: both;
 }
