@@ -9,21 +9,25 @@ body{
     background-color: #e6e6e6;
 }
 
+#principal{
+    min-width: 500px;
+}
+
 h1{
-    color: white;
+    color: #00FFFF;
     margin: 0;
     font-size: 2.5em;
 }
 
-.vermelho{
-    color: red;
+.branco{
+    color: #FFFFFF;
 }
 
 /*Logo*/
 
 #area-cabecalho{
     text-align: center;
-    background-color: black;
+    background: #01144c url(../Imagens/img-de-fundo-logo.png) repeat-x top center;
     padding: 16px;
 }
 
@@ -41,7 +45,7 @@ h1{
 }
 
 #area-cabecalho a:hover{
-    background: white;
+    background-color: rgb(255 255 255 /0.3);
     color: black;
 }
 

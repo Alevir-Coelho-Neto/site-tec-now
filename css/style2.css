@@ -9,21 +9,25 @@ body{
     background-color: #e6e6e6;
 }
 
+#principal{
+    min-width: 490px;
+}
+
 /*Area logo*/
 
 #area-cabecalho{
-    background-color: black;
+    background: #01144c url(../Imagens/img-de-fundo-logo.png) repeat-x top center;
     text-align: center;
     padding: 16px;
 }
 
 h1{ 
     font-size: 2.5em;
-    color: white;
+    color: #00FFFF;
     margin: 0px;
 }
-.vermelho{
-    color: red;
+.branco{
+    color: white;
 }
 
 #area-logo{
@@ -40,8 +44,8 @@ h1{
 }
 
 #area-cabecalho a:hover{
+    background-color: rgb(255 255 255 /0.3);
     color: black;
-    background: white;
 }
 
 /*Conteudo*/
@@ -55,24 +59,29 @@ h1{
     padding-top: 13px;
     padding-bottom: 13px;
     color: white;
-   background-color: black;
+   background-color: rgb(0 0 0 /0.7);
 }
 
 .area-produtos{
     background-color: #e6e6e6;
 }
 
+.caixa-produto{
+    margin-left: 95px;
+}
+
 .produtos{
-    margin: 25px 25px 2px 33px;
+    margin: 25px 35px 2px 3px;
     border-radius: 20px;
     background: white;
-    width: 310px;
+    width: 295px;
     height: 545px;
     float: left;
 }
 
 .produtos:hover{
     background-color: #B0E0E6;
+    cursor: pointer;
 }
 
 .clear{
@@ -85,7 +94,7 @@ h1{
     padding-top: 13px;
     padding-bottom: 13px;
     color: white;
-   background-color: black;
+    background-color: rgb(0 0 0 /0.7);
    margin-top: 25px;
 }
 
