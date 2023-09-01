@@ -125,6 +125,10 @@ h1{
     font-size: 1.1em
 }
 
+#nossa-equipe #lista-nosso-time{
+    list-style: none;
+}
+
 #lista-nosso-time li h2{
     font-size: 1.2em;
     margin-bottom: 10px;
