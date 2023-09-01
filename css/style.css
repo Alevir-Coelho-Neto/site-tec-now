@@ -125,7 +125,7 @@ h1{
     font-size: 1.1em
 }
 
-#nossa-equipe #lista-nosso-time{
+#nossa-equipe #lista-nosso-time li{
     list-style: none;
 }
 
